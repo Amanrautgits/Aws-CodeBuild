@@ -11,3 +11,13 @@ Steps :-
 2. Select Source for your code , here it can be BitBucket, GutHub , S3 , CodeCommit anything , i Have used S3 as a source for my code , providing the bucket name and uploading  Zip in that Bucket .
 3. Here our code should contain buildspec.yml for Build flows .
 4. In Artifacts the path of bucket should be mentioned where we need to get the jar or war .
+
+Note :- If you are using Github or BitBucket as source :- 
+
+-> Click "Connect to GitHub" if it's your first time:
+-> Choose OAuth and authorize AWS.
+-> Repository: Choose Public or Private.
+-> Enter the repository URL (e.g., https://github.com/your-user/your-repo).
+-> (Optional) Choose a specific branch (like main or dev).
+
+
